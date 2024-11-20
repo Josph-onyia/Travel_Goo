@@ -9,7 +9,7 @@
   background: url(./Assets/stefan-stefancik-6whwCHgsMiA-unsplash\ 1.png)
     no-repeat center;
   background-size: cover;
-  height: 900px;
+  height: 800px;
   width: 100%;
   padding-top: 20px;
   color: white;
@@ -42,7 +42,7 @@
 }
 .first_section .article {
   /* outline: dotted; */
-  margin-top: 250px;
+  margin-top: 220px;
   text-align: center;
 }
 .article .text_box {
@@ -184,12 +184,29 @@
   height: 600px;
   gap: 120px;
   width: 100%;
-
+  position: relative;
   /* outline: dotted; */
 }
 .map {
   width: 50%;
 }
+.destinaions > img {
+  position: absolute;
+  /* left: 20%; */
+}
+.blue_point_1 {
+  top: 52%;
+  left: 24%;
+}
+.blue_point_2 {
+  top: 64%;
+  left: 30%;
+}
+.blue_point_3 {
+  bottom: 11%;
+  left: 42%;
+}
+
 .map img {
   height: 600px;
   /* outline: dotted; */
@@ -352,17 +369,46 @@
   height: 800px;
   margin-top: 150px;
   background: #ecf1f0;
+  position: relative;
 }
 .seventh_section h1 {
   text-align: center;
   padding-top: 60px;
 }
-.seventh_section div {
+.seventh_section .images {
   display: flex;
   align-items: center;
   gap: 60px;
   overflow-x: hidden;
   margin-top: 60px;
+}
+.seventh_section > img {
+  z-index: 1;
+  height: 120px;
+  position: absolute;
+  left: 49%;
+  bottom: 230px;
+}
+.seventh_section .texts {
+  background-color: white;
+  box-shadow: 1px 5px 8px rgba(128, 128, 128, 0.414);
+  /* outline: dotted; */
+  height: 220px;
+  width: 700px;
+  padding: 50px 100px;
+  text-align: center;
+  position: absolute;
+  bottom: 55px;
+  left: 30%;
+}
+.seventh_section .texts p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.seventh_section .texts h4 {
+  font-size: 22px;
+  line-height: 33px;
+  margin-top: 20px;
 }
 .eigth_section {
   display: flex;
@@ -370,6 +416,13 @@
   align-items: center;
   justify-content: center;
   padding: 50px;
+  position: relative;
+}
+.eigth_section .telegram_icon {
+  height: 70px;
+  position: absolute;
+  top: 24px;
+  right: 240px;
 }
 .eigth_section .information {
   width: 1000px;
@@ -414,8 +467,14 @@
   color: white;
   border-radius: 10px;
 }
+.stars {
+  height: 200px;
+  position: absolute;
+  right: 140px;
+  bottom: 44%;
+}
 .footer {
-  margin-top: 120px;
+  margin-top: 150px;
   display: flex;
   gap: 170px;
 }
