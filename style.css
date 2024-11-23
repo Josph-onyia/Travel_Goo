@@ -886,6 +886,7 @@ footer {
   }
 
   .information div button {
+    height: 40px;
     border-radius: 8px;
   }
   .stars {
